@@ -16,4 +16,4 @@
 (global-set-key (kbd "C-c w") 'helm-ahk-switch-windows-list)
 ```
 
-![helm-ahk-sitch-windows](https://github.com/HuangChen1989/helm-ahk/blob/main/Snipaste1.png)
+![helm-ahk-sitch-windows](https://github.com/HuangChen1989/helm-ahk/blob/master/Snipaste1.png)
