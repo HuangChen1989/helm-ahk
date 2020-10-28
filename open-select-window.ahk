@@ -1,3 +1,3 @@
-FileRead, OutputVar, *P65001 select-window.txt
+IniRead, OutputVar, helm-ahk.ini, switch-windows, select-window
 IfWinExist, %OutputVar%
 	WinActivate

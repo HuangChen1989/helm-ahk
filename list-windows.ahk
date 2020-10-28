@@ -7,6 +7,4 @@ Loop %windows%
 		r .= wt . ","
 	}
 }
-file := FileOpen("windows.txt", "w", "utf-8")
-file.Write(r)
-file.Close()
+IniWrite, %r%, helm-ahk.ini,switch-windows,windows

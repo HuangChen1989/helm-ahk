@@ -6,12 +6,19 @@
 
 # 脚本列表
 
--   helm-ahk-sitch-windows
+## init-parser
+和 Ahk 中的 =IniRead= =IniWrite= 功能一样
+```elisp
+(require 'init-parser)
+;; example
+(ini-read 'myfile.ini' 'section' 'key')
+(ini-write 'value' 'myfile.ini' 'section' 'key')
+```
+## helm-ahk-sitch-windows
 
 和 switch-to-buffer 一样切换 windows 窗口
 
 ```elisp
-(add-to-list 'load-path "/path/to/helm-ahk/")
 (require 'helm-ahk-switch-windows)
 (global-set-key (kbd "C-c w") 'helm-ahk-switch-windows-list)
 ```
