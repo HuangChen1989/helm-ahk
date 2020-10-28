@@ -7,12 +7,12 @@
 # 脚本列表
 
 ## init-parser
-和 Ahk 中的 =IniRead= =IniWrite= 功能一样
+和 Ahk 中的 `IniRead` `IniWrite` 功能一样
 ```elisp
 (require 'init-parser)
 ;; example
-(ini-read 'myfile.ini' 'section' 'key')
-(ini-write 'value' 'myfile.ini' 'section' 'key')
+(ini-read "myfile.ini" "section" "key") ;;=> value
+(ini-write "value" "myfile.ini" "section" 'key')
 ```
 ## helm-ahk-sitch-windows
 
